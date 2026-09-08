@@ -1,0 +1,11 @@
+--// ARX HUB Loader | by ARX/Abod
+--// Discord: https://discord.gg/tRFrMTNF
+
+local success, err = pcall(function()
+    loadstring(game:HttpGet("https://api.obscuravm.com/scripts/4245385414393294271"))()
+end)
+
+if not success then
+    warn("[ARX HUB] Failed to load:", err)
+    game.Players.LocalPlayer:Kick("ARX HUB failed to load. Join Discord: discord.gg/tRFrMTNF")
+end
