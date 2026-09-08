@@ -2,7 +2,7 @@
 --// Discord: https://discord.gg/tRFrMTNF
 
 local success, err = pcall(function()
-    loadstring(game:HttpGet("https://api.obscuravm.com/scripts/4245385414393294271"))()
+    loadstring(game:HttpGet("https://api.obscuravm.com/scripts/1953775463346248765"))()
 end)
 
 if not success then
